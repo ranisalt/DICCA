@@ -1,0 +1,67 @@
+div.box
+{
+	background-color : gray;
+	border-left : 1px solid black;
+	border-right : 1px solid black;
+	padding-left : 200px;
+}
+
+div.submenu
+{
+	position : fixed;
+	display : table-cell;	
+	left : 0px;
+	float : left;
+	height : auto;
+	width : 201px;
+	margin-left : 100px;
+	text-align : left;
+}
+
+div.conteudo
+{
+	position : relative;
+	border-left : 1px solid black;
+	border-right : 1px solid black;
+	background-color : white;
+	width : 100%;
+}
+
+p.titulo
+{
+	color : black;
+	padding : 5px;
+	margin : 0px;
+	text-align : center;
+	font-size : 200%;
+	font-variant : small-caps;
+	font-weight : bold;
+}
+
+p.box
+{
+	padding-left : 40px;
+	padding-right : 40px;
+}
+
+ul
+{
+	list-style-type : none;
+	padding : 0px;
+	margin : 0px;
+	margin-left : 1px;
+}
+
+li
+{
+	padding : 5px;
+	padding-left : 12px;
+	line-height : 32px;
+	font-size : 16px;
+}
+
+li:hover
+{
+	background-image : url("img/menu.jpg");
+	font-weight : bold;
+}

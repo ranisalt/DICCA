@@ -1,0 +1,8 @@
+# no one gets in here!
+deny from all
+allow from 127.0.0.1
+ErrorDocument 400 /index.php
+ErrorDocument 401 /index.php
+ErrorDocument 403 /index.php
+ErrorDocument 404 /404.php
+ErrorDocument 500 /index.php

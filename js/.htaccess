@@ -1,0 +1,5 @@
+ErrorDocument 400 /dicca/index.php
+ErrorDocument 401 /dicca/index.php
+ErrorDocument 403 /dicca/index.php
+ErrorDocument 404 /dicca/404.php
+ErrorDocument 500 /dicca/index.php
